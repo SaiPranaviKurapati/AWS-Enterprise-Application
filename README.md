@@ -16,8 +16,8 @@ This repository contains a ReactJS application.Please follow the instructions be
 
 ### Prerequisites
 
-- **Node.js**: version X.X.X or later
-- **npm**: version X.X.X or later
+- **Node.js**: version v18.18.0 or later
+- **npm**: version 10.5.1 or later
 - **nanoid**
 
 ### Setup Instructions
