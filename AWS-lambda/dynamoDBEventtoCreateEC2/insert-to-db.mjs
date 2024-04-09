@@ -37,10 +37,13 @@ export const handler = async (event) => {
         Item: { id, inputText, inputFilePath }
     };
 
-    try {
+    try 
+    {
         await ddbDocClient.send(new PutCommand(params));
         console.log("Success - Item added", params.Item);
-    } catch (err) {
+    } 
+    catch (err) 
+    {
         console.log("Error", err.stack);
         return {
             statusCode: 500,
