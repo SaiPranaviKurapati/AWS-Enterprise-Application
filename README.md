@@ -85,6 +85,21 @@ The `dynamoDBEventtoCreateEC2` function:
 
 The frontend procedure for processing files, submitting user input, and initiating backend activities within the project has been described in depth in this document. This method shows how to combine a React frontend with a variety of AWS services to create a seamless file processing and data management system.
 
+
+## References Used for Coding
+
+The resources include:
+
+- **YouTube tutorials**: Various tutorials were watched to gain a deeper understanding of AWS services.
+- **AWS Documentation**: The official AWS documentation was referred to for detailed steps of implementation. Some of the specific pages consulted include:
+
+  - [AWS CodeCommit User Guide - Setting up for AWS CodeCommit](https://docs.aws.amazon.com/codecommit/latest/userguide/how-to-notify-lambda-cc.html) - This guide helped in setting up notifications for AWS Lambda with AWS CodeCommit.
+  
+  - [Amazon EC2 User Guide - Instance User Data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html) - Provided information on how to make use of user data to configure instances upon startup.
+  
+  - [Amazon S3 User Guide - Uploading Objects](https://docs.aws.amazon.com/AmazonS3/latest/userguide/upload-objects.html) - Offered guidance on how to upload files and objects to Amazon S3.
+
+
 ## Contact
 
 For further information, please contact:
